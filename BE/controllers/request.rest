@@ -1,0 +1,22 @@
+//Login Admin
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "dian2@gamil.com",
+  "password": "dian1234567"
+}
+
+###
+//register 
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "nama_depan": "dian2",
+  "nama_belakang": "dian2",
+  "email": "dian2@gamil.com",
+  "password": "dian1234567",
+  "no_tlpn": "0234567890",
+  "role": 4
+}
